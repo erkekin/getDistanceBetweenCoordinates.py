@@ -21,7 +21,7 @@ coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitud
 ....
 ..
 #Usage
-$ python getDistance.py coordinates.csv output.csv
+$ python getDistanceBetweenCoordinates.py coordinates.csv output.csv
 
 #Google Directions API
 https://developers.google.com/maps/documentation/directions/#JSON
