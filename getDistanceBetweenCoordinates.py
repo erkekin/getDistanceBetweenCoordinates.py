@@ -18,6 +18,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
+
+#python getDistanceBetweenCoordinates.py coordinates.csv output.csv(which is generated automatically)
+
 import urllib2
 import json
 import csv
@@ -31,8 +34,6 @@ def useAPI(csv, writer):
 
         response = urllib2.urlopen(url)
 
-        from pprint import pprint
-
         data = json.load(response)
         distance = data['rows'][0]['elements'][0]['distance']['value']
 
@@ -44,4 +45,3 @@ writer = csv.writer(ofile, delimiter=',', quotechar=' ', quoting=csv.QUOTE_ALL)
 
 useAPI(csv.reader(open(sys.argv[1], "rb")), writer)
 
-#python request.py points.csv output.csv
