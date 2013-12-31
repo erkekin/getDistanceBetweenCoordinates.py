@@ -1,7 +1,7 @@
 getDistance.py
 =============
 
-Python script that calculates distance between two decimal degree (30.123456, 39.123456) coordinates and outputs it in meters.
+Python script that calculates distance between two decimal degree `(30.123456, 39.123456)` coordinates and outputs it in meters.
 
 #input.csv format 
 
@@ -14,14 +14,14 @@ coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitud
 ....
 ..
 #output.csv format 
+`coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS<br>
 coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS<br>
-coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS<br>
-coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS<br>
+coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS<br>`
 .....<br>
 ....<br>
 ..<br>
 ##Usage
-$ python getDistanceBetweenCoordinates.py coordinates.csv output.csv
+`$ python getDistanceBetweenCoordinates.py coordinates.csv output.csv`
 
 ##Google Directions API
 https://developers.google.com/maps/documentation/directions/#JSON
