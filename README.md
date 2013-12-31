@@ -21,16 +21,17 @@ coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitud
 ....<br>
 ..<br>
 ##Usage
-Open console or terminal in project directory
+Open console or terminal in project directory <br>
 `$ python getDistanceBetweenCoordinates.py coordinates.csv output.csv`
 
 ##Google Directions API
 https://developers.google.com/maps/documentation/directions/#JSON
-##Dev
-@erkekin, www.erkekin.com
 
+##Dev
+
+[@erkekin](http://www.twitter.com/erkekin)
 ##Licese
- Copyright (c) 2013 erkekin <erkekin@gmail.com> www.erkekin.com
+ Copyright (c) 2013 erkekin <erkekin at gmail.com> [erkekin.com](http://www.erkekin.com)
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
