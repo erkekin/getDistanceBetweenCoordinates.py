@@ -26,7 +26,7 @@ $ python getDistanceBetweenCoordinates.py coordinates.csv output.csv
 #Google Directions API
 https://developers.google.com/maps/documentation/directions/#JSON
 #Dev
-@erkekin
+@erkekin, www.erkekin.com
 
 #Licese
 # Copyright (c) 2013 erkekin <erkekin@gmail.com> www.erkekin.com
