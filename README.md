@@ -7,16 +7,16 @@ Python script that calculates distance between two decimal degree `(30.123456, 3
 
 (coordinates.csv in example)
 
-coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude<br>
-coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude<br>
-coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude<br>
+`coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude
+coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude
+coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude`
 .....
 ....
 ..
 #output.csv format 
-`coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS<br>
-coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS<br>
-coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS<br>`
+`coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS
+coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METER
+coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitude, DISTANCE IN METERS`
 .....<br>
 ....<br>
 ..<br>
