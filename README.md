@@ -20,15 +20,15 @@ coordinate1Latitude,coordinate1Longitude,coordinate2Latitude,coordinate2Longitud
 .....<br>
 ....<br>
 ..<br>
-#Usage
+##Usage
 $ python getDistanceBetweenCoordinates.py coordinates.csv output.csv
 
-#Google Directions API
+##Google Directions API
 https://developers.google.com/maps/documentation/directions/#JSON
-#Dev
+##Dev
 @erkekin, www.erkekin.com
 
-#Licese
+##Licese
  Copyright (c) 2013 erkekin <erkekin@gmail.com> www.erkekin.com
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
